@@ -14,7 +14,6 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           port: ${{ secrets.SERVER_PORT }}
-          passphrase: ${{ secrets.PASS_PHRASE }}
           rm: true
           source: "./"
           target: ${{ secrets.REMOTE_TARGET }}
